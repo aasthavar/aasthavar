@@ -29,7 +29,7 @@ Applied ML researcher/engineer. I build **scalable LLM systems, agentic AI, and 
 
 ## 🛠️ Tech Stack
 
-**Training:** PyTorch, DeepSpeed, FSDP, SMP, LoRA/PEFT, Multi-GPU/Node
-**Inference:** TensorRT-LLM, vLLM, sglang, LoRA adapters, Quantization & Distillation
-**Infra:** AWS (SageMaker, EKS, HyperPod, ParallelCluster), Docker, Prometheus, Grafana
-**Other:** HPC, distributed LLM scaling, agentic AI
+* **Training:** PyTorch, DeepSpeed, FSDP, SMP, LoRA/PEFT, Multi-GPU/Node
+* **Inference:** TensorRT-LLM, vLLM, sglang, LoRA adapters, Quantization & Distillation
+* **Infra:** AWS (SageMaker, EKS, HyperPod, ParallelCluster), Docker, Prometheus, Grafana
+* **Other:** HPC, distributed LLM scaling, agentic AI

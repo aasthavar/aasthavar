@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <!--
 **aasthavar/aasthavar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -73,11 +71,11 @@ I work at the intersection of **machine learning and applied research**, with pr
 
 ## 🛠️ Tech Stack & Interests
 
-* **Research**: Interpretability, post-training, AI for the physical world
-* **Training**: PyTorch, DeepSpeed, FSDP, HF Accelerate
-* **Inference**: vLLM, Triton, TensorRT-LLM, RayServe
+* **Research**: Mechanistic Interpretability, post-training, AI for the physical world
+* **Training**: PyTorch, DeepSpeed, FSDP, Sagemaker Model Parallelism, HF Accelerate
+* **Inference**: vLLM, TensorRT-LLM, sglang
 * **Infra**: AWS (SageMaker, EKS, HyperPod, ParallelCluster), Docker, Prometheus, Grafana
-* **Other**: HPC, Quantization, Distillation, Cryptography
+* **Other**: HPC, Inference optimization, LLM Distillation
 
 ---
 

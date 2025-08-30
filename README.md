@@ -1,53 +1,35 @@
 # 👋 Hi, I’m Aastha
 
-Applied ML researcher/engineer working on **LLMs, agents, robotics, and interpretability**. I like building **scalable systems** that move from demo → production.
+Applied ML researcher/engineer. I build **scalable LLM systems, agentic AI, and robotics**, bridging **research → production**.
 
 ---
 
-## 💼 Work
+## ⚡ Highlights
 
-**Amazon Web Services (2021–now)** – ML Prototyping Engineer
+* **LLM Pre-training & Fine-tuning:**
+  Distributed pipelines (DeepSpeed, FSDP, SMP, LoRA/PEFT, CPU offload) for 7B–70B models → **training 57h → 5.6h**, multi-GPU/Node, benchmarked and scaled for production.
 
-* Built **12+ GenAI/ML prototypes**, 2 scaled into **\$10M+ enterprise deals**
-* Designed **distributed training/inference pipelines** (DeepSpeed, FSDP, SMP, SageMaker MP) → AWS case studies
-* Benchmarked **inference stacks** (vLLM, TensorRT-LLM, sglang) → 70% latency reduction, 80+ QPS
-* Demos at **AWS re\:Invent, Summits, ICML 2025 (demo track)**
-* **Awards**: AWS All-Star 2025, mentor/judge at **She Builds** & **Technovation Girls**
+* **Inference Optimization:**
+  Triton + TensorRT + vLLM, fused attention, multi-LoRA adapters, quantization → **70% latency reduction, 80+ QPS**, production-grade deployments.
 
----
+* **Embodied & Agentic AI:**
+  Modular exoskeleton (LLM + vision + speech) → **ICML 2025 demo**.
+  Multi-agent orchestration for GenAI campaigns & designer assistant with RAG, query rewriting, hallucination detection.
 
-## 🔬 Research & Projects
+* **Mechanistic Interpretability:**
+  Crosscoders (sparse autoencoders) to probe LLM instruction-tuning; HF open-source pipeline.
 
-* **Exoskeleton Agent** – LLM + Vision + Speech for embodied AI → **ICML 2025 demo**
-* **Mechanistic Interpretability** – sparse autoencoders probing instruction-tuned LLMs (HF release)
-* **Multi-agent Systems** – co-marketer agents → deployed in production
-* **Designer assistant** - multi-step RAG, hallucination detection, routing
-* **Brick Maestro** – NP-hard Lego assembly with HPC → **re\:Invent, AI Conclave, AWS Paris Summit**
-* **ECC Cryptography (DRDO)** – algorithm (Karatsuba and Quad-Itoh-Tsuji) optimization, paper written
+* **NP-hard / HPC Projects:**
+  Brick Maestro: Lego assembly optimization using HPC, AWS ParallelCluster → presented at AWS re\:Invent, Paris Summit.
 
----
-
-## 🎓 Education
-
-**Dual Degree (B.Tech + M.Tech), CSE – NIT Rourkela (2016–2021)**
-
-* Thesis: *Learning Deep Models for Face Anti-Spoofing*
-* TA: Programming Lab & Data Structures Labs
+* **Foundations:**
+  Deep Learning for Face Anti-Spoofing (Thesis), TA at NIT Rourkela, Algorithm (karatsuba + quad itoh-tsuji) optimization @ DRDO.
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Training**: PyTorch, DeepSpeed, FSDP, HF Accelerate, SageMaker MP
-**Inference**: vLLM, TensorRT-LLM, sglang
-**Infra**: AWS (EKS, SageMaker, HyperPod, ParallelCluster), Docker, Prometheus, Grafana
-**Interests**: Mechanistic Interpretability, pre & post-training, AI for the physical world
-
----
-
-## ✨ Highlights
-
-* **ICML 2025 Demo**: Modular embodied agents
-* **AWS re\:Invent Demos**: Robotics + GenAI (2023, 2024)
-* **AWS All-Star Award 2025**
-* Mentorship & outreach: **She Builds**, **Technovation Girls**
+**Training:** PyTorch, DeepSpeed, FSDP, SMP, LoRA/PEFT, Multi-GPU/Node
+**Inference:** TensorRT-LLM, vLLM, sglang, LoRA adapters, Quantization & Distillation
+**Infra:** AWS (SageMaker, EKS, HyperPod, ParallelCluster), Docker, Prometheus, Grafana
+**Other:** HPC, distributed LLM scaling, agentic AI
